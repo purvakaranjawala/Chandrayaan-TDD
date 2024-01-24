@@ -28,7 +28,7 @@ describe SpaceCraft do
     end
 
     context "for valid input" do
-      it "initial direction should be valid" do
+      it "should return position and direction" do
         starting_point = [0,0,0]
         initial_direction = 'N'
         commands = ['f', 'r', 'u', 'b', 'l']

@@ -9,7 +9,7 @@ class SpaceCraft
   include SCPosition
 
   def initialize(starting_point, initial_direction, commands)
-    @position = starting_point ||= [0,0,0]
+    @position = starting_point
     initialize_direction(initial_direction)
     @commands = commands
     run
