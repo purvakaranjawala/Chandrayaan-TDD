@@ -5,7 +5,6 @@ class SpaceCraft
   attr_accessor :position, :direction
   DIRECTIONS = ["N", "S", "E", "W", "Up", "Down"]
   COMMAND = ['f', 'b', 'l', 'r', 'u', 'd']
-
   include SCPosition
 
   def initialize(starting_point, initial_direction, commands)
