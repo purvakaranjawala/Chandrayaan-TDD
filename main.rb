@@ -1,7 +1,7 @@
 require_relative 'lib/space_craft'
 
 def main
-  puts 'Enter starting point'
+  puts 'Enter starting point coordinates x,y,z'
   starting_point = 3.times.map { gets.chomp.then { |l| Integer(l) rescue l } }
   
   puts 'Type in words f, r, u, b, l, d to give space craft command\n. When you\'re finished, press enter on an empty line'

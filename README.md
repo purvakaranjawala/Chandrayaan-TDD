@@ -10,4 +10,10 @@
         bundle
 4. Run specs `bundle exec rspec`
 
-4. Create a main.rb file# Chandrayaan-TDD
+5. EntryPoint main.rb file# Chandrayaan-TDD
+6. To run program 
+
+```ruby
+ruby main.rb
+```
+7. 
