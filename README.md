@@ -1,19 +1,25 @@
 # Chandrayaan-TDD
 
-1. Commands:
-      
-      bundle config set --local path '.bundle'
+1. When creating new repo and need to add the Gemfile and bundle:
 
-2. Create Gemfile and add required gems
-3. run command in terminal
-        
-        bundle
-4. Run specs `bundle exec rspec`
+    `bundle config set --local path '.bundle'`
 
-5. EntryPoint main.rb file# Chandrayaan-TDD
+2. Add gems in Gemfile
+3. Install gems: run command in terminal
+
+      `bundle`
+
+4. Run specs 
+
+      `bundle exec rspec`
+
+5. EntryPoint **main.rb** file# Chandrayaan-TDD
 6. To run program 
 
 ```ruby
 ruby main.rb
 ```
-7. 
+7.  User Input
+      * Enter StartingPoint coordinates
+      * Enter commands 
+      * Enter initial direction
